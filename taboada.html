@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="taboada.js"></script>
+    <title>Taboada do Dante</title>
+</head>
+
+<body>
+    <section id="lateral-esquerda" class="animate__animated animate__zoomInUp">
+        <div id="botao-principal">
+            <button type="button" onclick="Mudarestado('principal')"><img src="./source/load-8510.gif" alt=""></button>
+        </div>
+    </section>
+    <section id="principal" class="animate__animated animate__bounceInRight" >
+        <div id="topo-principal">
+            <h1 class="animate__animated animate__lightSpeedInRight">Oráculo da Taboada</h1>
+            <br>
+            <label for="">Insira um Número</label>
+            <br>
+            <input type="number" name="entrada" id="entrada">
+            <br>
+            <button type="button" onclick="CalculaTaboada('conteudo')">Calcular</button>
+        </div>
+        <div id="conteudo" class="animate__animated animate__backInUp">
+        </div>
+
+
+    </section>
+
+
+</body>
+
+</html>

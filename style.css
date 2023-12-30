@@ -1,0 +1,125 @@
+* {
+    font-family: 'Raleway', sans-serif;
+}
+body {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+}
+
+#lateral-esquerda {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 20%;
+    margin: 100px auto 0px auto;
+}
+
+#botao-principal {
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 5px;
+    background: none;
+}
+
+#botao-principal button {
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: 30%;
+}
+
+#botao-principal button:hover {
+    background-color: rgba(170, 235, 255, 0.2);
+    border-radius: 50%;
+    color: red;
+}
+
+#botao-principal img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+#principal {
+    display: none;
+    flex-direction: row;
+    justify-content: center;
+    width: 80%;
+    margin: 100px auto 0px 0px;
+}
+
+#topo-principal {
+    text-align: center;
+    height: 170px;
+    max-width: 1200px;
+    background: rgb(80, 9, 245);
+    border-radius: 10px;
+    margin: 5px;
+    padding: 15px;
+}
+
+#topo-principal label {
+    font-size: medium;
+    color: white;
+    margin: 5px;
+}
+
+#topo-principal input {
+    text-align: center;
+    font-size: large;
+    color: black;
+    margin: 5px;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+#topo-principal button {
+    font-size: medium;
+    color: black;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+#topo-principal button:hover {
+    font-size: large;
+    background-color: rgb(0, 255, 0);
+}
+
+h1 {
+    font-size: xx-large;
+    color: white;
+    margin: 20px;
+}
+
+#conteudo {
+    display: none;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    max-width: 1200px;
+    background: rgb(255, 126, 126);
+    border-radius: 10px;
+    margin: 5px;
+    padding: 2px;
+    padding: 15px;
+    
+}
+
+#conteudo div {
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 100px;
+    margin: 2px;
+    padding: 3px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: rgba(255, 255, 180, 0.8);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+
+}
